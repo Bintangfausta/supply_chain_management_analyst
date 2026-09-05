@@ -21,7 +21,6 @@ Dataset final mencakup **200 order** yang berlangsung sepanjang Januari–Juli 2
 | Layer | Tools |
 |---|---|
 | Data Cleaning & Standardization | SQL (MySQL) |
-| Data Modeling & DAX Measures | Power BI Desktop |
 | Data Visualization & Reporting | Power BI Desktop |
 | Environment | MySQL Workbench, Power BI Desktop |
 
