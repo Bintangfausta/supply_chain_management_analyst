@@ -1,5 +1,7 @@
 # Supply Chain Supplier Performance, Cost & Quality Risk Analysis
 
+![alt text](https://github.com/Bintangfausta/supply_chain_management_analyst/blob/main/asset/img1.png?raw=true)
+
 ## 1. Executive Summary
 
 Proyek ini menganalisis data transaksi procurement dalam supply chain yang melibatkan banyak Supplier, Location, dan Product Type. Data mentah datang dengan format tidak konsisten — penulisan kode Supplier yang berantakan, nama kota dengan banyak varian ejaan, dan Order Date yang tercampur dalam lima format berbeda — dibersihkan dan distandarisasi terlebih dahulu, sebelum dimodelkan dan divisualisasikan dalam Power BI. Analisis ini tidak berhenti pada pelaporan angka, melainkan menjawab pertanyaan bisnis inti: **Supplier mana yang paling cost-efficient, paling cepat memenuhi pesanan, dan paling konsisten kualitasnya — dan keputusan sourcing apa yang perlu diambil tim procurement berdasarkan hal tersebut?**
