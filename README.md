@@ -109,7 +109,7 @@ supply-chain-management-analysis/
 │
 ├── supply_chain_data_cleaning.sql              # Data cleaning & standardization script (MySQL)
 │
-├── Supply_Chain_Management.pbix                # Power BI dashboard (data model, DAX measures & visuals)
+├── Supply_Chain_Management_Dahsboard.pbix                # Power BI dashboard (data model, DAX measures & visuals)
 │
 └── assets/                                     # Dashboard screenshots for README
 ```
