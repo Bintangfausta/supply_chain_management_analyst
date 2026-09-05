@@ -4,7 +4,6 @@
 
 Proyek ini menganalisis data transaksi procurement dalam supply chain yang melibatkan banyak Supplier, Location, dan Product Type. Data mentah datang dengan format tidak konsisten — penulisan kode Supplier yang berantakan, nama kota dengan banyak varian ejaan, dan Order Date yang tercampur dalam lima format berbeda — dibersihkan dan distandarisasi terlebih dahulu, sebelum dimodelkan dan divisualisasikan dalam Power BI. Analisis ini tidak berhenti pada pelaporan angka, melainkan menjawab pertanyaan bisnis inti: **Supplier mana yang paling cost-efficient, paling cepat memenuhi pesanan, dan paling konsisten kualitasnya — dan keputusan sourcing apa yang perlu diambil tim procurement berdasarkan hal tersebut?**
 
-Dataset final mencakup **200 order** yang berlangsung sepanjang Januari–Juli 2025, melibatkan **5 Supplier** (S1–S5), **5 Location** (Bangalore, Chennai, Delhi, Kolkata, Mumbai), dan **3 Product Type** (Cosmetics, Haircare, Skincare), dengan total Total Cost sebesar **$1.728.266,20** dan total Revenue sebesar **$657.837,61**.
 
 ### Business Goals & Objectives
 
@@ -21,6 +20,7 @@ Dataset final mencakup **200 order** yang berlangsung sepanjang Januari–Juli 2
 | Layer | Tools |
 |---|---|
 | Data Cleaning & Standardization | SQL (MySQL) |
+| Data Modeling & DAX Measures | Power BI Desktop |
 | Data Visualization & Reporting | Power BI Desktop |
 | Environment | MySQL Workbench, Power BI Desktop |
 
@@ -104,8 +104,8 @@ supply-chain-management-analysis/
 │
 ├── README.md                                   # Project overview and business insights
 ├── data/
-│   ├── Supply_Chain_Management_Dataset_RAW.csv # Raw source dataset (input for the cleaning script)
-│   └── Supply_Chain_Management_Clean.xlsx      # Cleaned dataset after SQL processing (200 rows)
+│   ├── supply_chain_management_dataset_raw.csv # Raw source dataset 
+│   └── supply_chain_management_dataset_clean.xlsx      # Cleaned dataset after SQL processing
 │
 ├── supply_chain_data_cleaning.sql              # Data cleaning & standardization script (MySQL)
 │
